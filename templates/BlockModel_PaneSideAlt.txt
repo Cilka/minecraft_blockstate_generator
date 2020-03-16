@@ -1,0 +1,7 @@
+﻿{
+    "parent": "block/pane_side_alt",
+    "textures": {
+        "edge": "#{modid}:#{edge}",
+        "pane": "#{modid}:#{pane}"
+    }
+}

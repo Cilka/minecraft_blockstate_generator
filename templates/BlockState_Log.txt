@@ -1,0 +1,14 @@
+{
+"forge_marker" : 1,
+    "defaults":{
+  "model": "#{modId}:#{log}"
+},
+    "variants": {
+        "axis=y":  { "model": "#{modId}:#{log}" },
+        "axis=z":   { "model": "#{modId}:#{log}", "x": 90 },
+        "axis=x":   { "model": "#{modId}:#{log}", "x": 90, "y": 90 },
+        "axis=none": { "model": "#{modId}:#{cap}" },
+	"normal": [{}],
+	"inventory": [{}]
+    }
+}

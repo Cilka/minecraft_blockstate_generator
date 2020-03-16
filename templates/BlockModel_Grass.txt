@@ -1,0 +1,11 @@
+{
+	"parent":"block/grass",
+	"textures": {
+		"particle": "#{modId}:#{bottom}",
+		"bottom" : "#{modId}:#{bottom}",
+		"top" : "#{modId}:#{top}",
+		"side" : "#{modId}:#{side}",
+		"overlay": "#{modId}:#{side}"
+		
+	}
+}

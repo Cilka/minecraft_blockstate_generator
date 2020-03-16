@@ -1,0 +1,34 @@
+﻿{
+	"forge_marker":1,
+    "multipart": [
+        {   "apply": { "model": "#{modId}:#{classname}_post" }},
+        {   "when": { "north": true },
+            "apply": { "model": "#{modId}:#{classname}_side" }
+        },
+        {   "when": { "east": true },
+            "apply": { "model": "#{modId}:#{classname}_side", "y": 90 }
+        },
+        {   "when": { "south": true },
+            "apply": { "model": "#{modId}:#{classname}_side_alt" }
+        },
+        {   "when": { "west": true },
+            "apply": { "model": "#{modId}:#{classname}_side_alt", "y": 90 }
+        },
+        {   "when": { "north": false },
+            "apply": { "model": "#{modId}:#{classname}_noside" }
+        },
+        {   "when": { "east": false },
+            "apply": { "model": "#{modId}:#{classname}_noside_alt" }
+        },
+        {   "when": { "south": false },
+            "apply": { "model": "#{modId}:#{classname}_noside_alt", "y": 90 }
+        },
+        {   "when": { "west": false },
+            "apply": { "model": "#{modId}:#{classname}_noside", "y": 270 }
+        }
+    ],
+	   "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

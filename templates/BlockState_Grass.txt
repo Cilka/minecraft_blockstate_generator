@@ -1,0 +1,16 @@
+{
+"forge_marker" : 1,
+	"defaults":{
+	"model": "#{modId}:#{classname}"
+	},
+	"variants":{
+	"snowy=false":[
+		{"model": "#{modId}:#{classname}"},
+	{"model": "#{modId}:#{classname}", "y":90},
+	{"model": "#{modId}:#{classname}", "y":180},
+	{"model": "#{modId}:#{classname}", "y":270}
+	],
+	"snowy=true": {"model": "#{modId}:snowy_#{dirt}_grass"},
+	"inventory": [{}]
+	}
+}

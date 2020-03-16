@@ -1,0 +1,10 @@
+{
+   "parent": "block/grass",
+   "textures": {	
+	"particle":"#{modId}:blocks/#{grassColor}_grass_side_#{dirtType}_dirt_block_v2",
+       "bottom": "#{modId}:blocks/#{grassColor}_dirt",
+	   "top": "#{modId}:blocks/#{grassColor}_grass_v2",
+	   "side": "#{modId}:blocks/#{grassColor}_grass_side_#{dirtType}_dirt_block_v2",
+	   "overlay":"#{modId}:blocks/#{grassColor}_grass_side_#{dirtType}_dirt_block_v2"
+   }
+}

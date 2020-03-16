@@ -1,0 +1,7 @@
+﻿{
+    "parent": "block/pane_post",
+    "textures": {
+        "edge": "#{modid}:#{edge}",
+        "pane": "#{modid}:#{pane}"
+    }
+}
